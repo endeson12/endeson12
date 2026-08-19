@@ -1,62 +1,70 @@
 # Endeson Marcell
 
-**Desenvolvedor de software com foco em backend, automação e DevOps.** Construo aplicações reproduzíveis, pipelines de CI/CD e ambientes Linux com documentação, monitoramento e caminho de recuperação.
+**Desenvolvedor backend orientado a dados, automação e confiabilidade.** Construo APIs em Python, pipelines reproduzíveis e serviços observáveis, com atenção a qualidade dos dados, segurança e recuperação.
 
-📍 Teresina, Piauí · [Portfólio](https://endesonportifolio.netlify.app/) · [E-mail](mailto:endesonmarcell@gmail.com)
+📍 Teresina, Piauí · [Portfólio](https://endesonportifolio.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/endeson12/) · [E-mail](mailto:endesonmarcell@gmail.com)
 
-## O que eu entrego
+> Busco oportunidade júnior ou estágio em **backend, dados ou geotecnologia**, contribuindo com código testável e disposição para aprender o domínio do produto.
 
-- APIs e automações com **Python**
-- Aplicações web com **React, TypeScript e JavaScript**
-- Ambientes reproduzíveis com **Docker e Docker Compose**
-- Qualidade automatizada com **testes, lint e GitHub Actions**
-- Operação de serviços em **Linux/VPS**, com Nginx, HTTPS, logs, backup e restauração
-- Instrumentação e observabilidade com health checks e métricas
+## Projetos em destaque
 
-## Projetos selecionados
+### [`geo-intelligence-api`](https://github.com/endeson12/geo-intelligence-api)
+[![CI](https://github.com/endeson12/geo-intelligence-api/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/geo-intelligence-api/actions/workflows/ci.yml)
+
+API de inteligência territorial com **FastAPI, PostgreSQL e PostGIS**. Importa GeoJSON validado, executa consultas por distância e área de cobertura, entrega dados geográficos para um mapa web e documenta governança, segurança e limitações. Separa seed sintético de uma amostra OpenStreetMap com licença, timestamp e proveniência — uso institucional ainda exige fonte autorizada, base legal e revisão de qualidade.
+
+**O que demonstra:** modelagem espacial, índice GiST, consultas PostGIS, contrato GeoJSON, migrações, importação transacional, testes, Docker e CI.
 
 ### [`devops-fastapi-lab`](https://github.com/endeson12/devops-fastapi-lab)
 [![CI](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml)
 
-API FastAPI criada como laboratório operacional reproduzível: container não-root, autenticação por API key para mutações, idempotência, logs JSON, dashboard Grafana, testes com cobertura, lint, tipagem, CI, health checks, métricas Prometheus, varredura de vulnerabilidades, backup, restauração e runbook. **[Ver Swagger público](https://devops-lab.76-13-234-134.sslip.io/docs)**
+API FastAPI criada para ser **operada, observada e recuperada**: autenticação nas mutações, idempotência, logs JSON, request IDs, métricas Prometheus, dashboard Grafana, health checks, container não-root, CI, backup e restauração. **[Swagger público](https://devops-lab.76-13-234-134.sslip.io/docs)**
 
 ### [`projeto-solar-liga-jovem`](https://github.com/endeson12/projeto-solar-liga-jovem)
 [![CI](https://github.com/endeson12/projeto-solar-liga-jovem/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/projeto-solar-liga-jovem/actions/workflows/ci.yml)
 
-MVP em React e TypeScript para acesso à energia solar. Inclui simulador, catálogo, comunidades, autenticação local por perfis, rotas protegidas, testes e build automatizado. **[Ver demonstração](https://endeson12.github.io/projeto-solar-liga-jovem/)**
+MVP React + TypeScript para explorar acesso à energia solar, com simulador, catálogo, perfis, rotas protegidas e testes. Dados e cálculos demonstrativos são identificados no projeto. **[Demonstração pública](https://endeson12.github.io/projeto-solar-liga-jovem/)**
 
 ### [`recarga-ja`](https://github.com/endeson12/recarga-ja)
 [![CI](https://github.com/endeson12/recarga-ja/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/recarga-ja/actions/workflows/ci.yml)
 
-Protótipo mobile-first de recarga de transporte, com autenticação simulada, dashboard, fluxo de recarga, extrato, perfil e navegação responsiva. **[Ver demonstração](https://endeson12.github.io/recarga-ja/)**
+Protótipo mobile-first de recarga de transporte, com autenticação simulada, dashboard, fluxo de recarga, extrato e interface responsiva. **[Demonstração pública](https://endeson12.github.io/recarga-ja/)**
 
-### [`portfolio-criativo`](https://github.com/endeson12/portfolio-criativo)
-[![CI](https://github.com/endeson12/portfolio-criativo/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/portfolio-criativo/actions/workflows/ci.yml)
+## Competências demonstradas
 
-Portfólio experimental com React, animações GSAP/Framer Motion, interações WebGL e publicação contínua no Netlify. **[Ver aplicação](https://endesonportifolio.netlify.app/)**
+| Área | Evidência pública |
+|---|---|
+| Backend e contratos | FastAPI, Pydantic, OpenAPI, autenticação e idempotência |
+| Dados geoespaciais | PostGIS, GeoJSON, consultas espaciais e validação de importação |
+| Qualidade | pytest, cobertura, Ruff, mypy e GitHub Actions |
+| Entrega | Docker, Docker Compose, migrações e ambientes reproduzíveis |
+| Operação | health/readiness, logs estruturados, métricas, backup e restauração |
+| Produto | problema documentado, demonstrações, decisões e limitações explícitas |
 
 ## Stack principal
 
-![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white)
-![Git](https://img.shields.io/badge/Git-111827?style=flat-square&logo=git)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions)
-![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker)
 ![Python](https://img.shields.io/badge/Python-111827?style=flat-square&logo=python)
 ![FastAPI](https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql)
+![PostGIS](https://img.shields.io/badge/PostGIS-111827?style=flat-square&logo=postgresql)
+![Docker](https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-111827?style=flat-square&logo=githubactions)
+![Linux](https://img.shields.io/badge/Linux-111827?style=flat-square&logo=linux&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript)
 ![React](https://img.shields.io/badge/React-111827?style=flat-square&logo=react)
-![Nginx](https://img.shields.io/badge/Nginx-111827?style=flat-square&logo=nginx)
 
-## Contato
+## Como trabalho
 
-- [LinkedIn](https://www.linkedin.com/in/endeson12/)
-- [Portfólio ao vivo](https://endesonportifolio.netlify.app/)
-- [WhatsApp](https://wa.me/message/ITBDAHVKOYMWH1)
+1. Entendo o problema e os critérios de aceite.
+2. Defino contratos, modelo de dados e limites explícitos.
+3. Implemento em incrementos pequenos, com testes e análise estática.
+4. Automatizo build, migração e verificações no CI.
+5. Documento como executar, observar, recuperar e evoluir o serviço.
 
-## Formação
+## Formação e estudos
 
 - **Análise e Desenvolvimento de Sistemas** — em andamento
 - **Técnico em TI** — Senac
-- Estudos atuais: DevOps, CI/CD, containers, observabilidade e Kubernetes
+- Estudos atuais: PostGIS, GeoJSON, ETL, qualidade e governança de dados, observabilidade e Kubernetes
 
-> Automatizar o repetitivo. Testar antes de publicar. Monitorar o que está em produção. Manter um caminho de recuperação.
+> Dados confiáveis, software testável e operação previsível transformam uma demonstração em uma solução sustentável.

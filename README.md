@@ -11,9 +11,11 @@
 ### [`geo-intelligence-api`](https://github.com/endeson12/geo-intelligence-api)
 [![CI](https://github.com/endeson12/geo-intelligence-api/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/geo-intelligence-api/actions/workflows/ci.yml)
 
-API de inteligência territorial com **FastAPI, PostgreSQL e PostGIS**. Importa GeoJSON validado, executa consultas por distância e área de cobertura, entrega dados geográficos para um mapa web e documenta governança, segurança e limitações. Separa seed sintético de uma amostra OpenStreetMap com licença, timestamp e proveniência — uso institucional ainda exige fonte autorizada, base legal e revisão de qualidade.
+API de inteligência territorial com **FastAPI, PostgreSQL e PostGIS**. Versiona lotes por SHA-256, evita reimportação idêntica, cruza equipamentos OSM com o limite municipal simplificado do IBGE e responde consultas por distância, raio e território. Publica benchmark sintético com `EXPLAIN ANALYZE`, SBOM e integração PostGIS real na CI — uso institucional ainda exige fontes adequadas ao caso, base legal e revisão de qualidade.
 
-**O que demonstra:** modelagem espacial, índice GiST, consultas PostGIS, contrato GeoJSON, migrações, importação transacional, testes, Docker e CI.
+**[Demonstração pública](https://endeson12.github.io/geo-intelligence-api/)** · **[Release v0.3.0](https://github.com/endeson12/geo-intelligence-api/releases/tag/v0.3.0)** · **[Benchmark versionado](https://github.com/endeson12/geo-intelligence-api/blob/main/docs/benchmark-postgis.json)**
+
+**O que demonstra:** modelagem espacial, índices GiST, `ST_DWithin`, `ST_Covers`, GeoJSON, migrações, idempotência concorrente, Docker, segurança e CI.
 
 ### [`devops-fastapi-lab`](https://github.com/endeson12/devops-fastapi-lab)
 [![CI](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml)
@@ -29,6 +31,10 @@ MVP React + TypeScript para explorar acesso à energia solar, com simulador, cat
 [![CI](https://github.com/endeson12/recarga-ja/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/recarga-ja/actions/workflows/ci.yml)
 
 Protótipo mobile-first de recarga de transporte, com autenticação simulada, dashboard, fluxo de recarga, extrato e interface responsiva. **[Demonstração pública](https://endeson12.github.io/recarga-ja/)**
+
+## Contribuição open source
+
+- [`wsidl/syntrend#33`](https://github.com/wsidl/syntrend/pull/33) — documentação e exemplo reproduzível para dados geoespaciais sintéticos, GeoJSON e carga segura no PostGIS. **Pull Request em revisão; não é contribuição mergeada.**
 
 ## Competências demonstradas
 

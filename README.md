@@ -18,7 +18,7 @@
 ### [`devops-fastapi-lab`](https://github.com/endeson12/devops-fastapi-lab)
 [![CI](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml)
 
-API FastAPI criada como laboratório operacional reproduzível: container não-root, testes com cobertura, lint, tipagem, CI, health checks, métricas Prometheus, varredura de vulnerabilidades, backup, restauração e runbook.
+API FastAPI criada como laboratório operacional reproduzível: container não-root, autenticação por API key para mutações, idempotência, logs JSON, dashboard Grafana, testes com cobertura, lint, tipagem, CI, health checks, métricas Prometheus, varredura de vulnerabilidades, backup, restauração e runbook. **[Ver Swagger público](https://devops-lab.76-13-234-134.sslip.io/docs)**
 
 ### [`projeto-solar-liga-jovem`](https://github.com/endeson12/projeto-solar-liga-jovem)
 [![CI](https://github.com/endeson12/projeto-solar-liga-jovem/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/projeto-solar-liga-jovem/actions/workflows/ci.yml)

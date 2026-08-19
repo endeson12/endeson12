@@ -4,7 +4,7 @@
 
 📍 Teresina, Piauí · [Portfólio](https://endesonportifolio.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/endeson12/) · [E-mail](mailto:endesonmarcell@gmail.com)
 
-> Busco oportunidade júnior ou estágio em **backend, dados ou geotecnologia**, contribuindo com código testável e disposição para aprender o domínio do produto.
+> Busco desafios em **backend, engenharia de dados e geotecnologia**, contribuindo com arquitetura pragmática, código testável, automação e entendimento do domínio do produto.
 
 ## Projetos em destaque
 
@@ -13,9 +13,9 @@
 
 API de inteligência territorial com **FastAPI, PostgreSQL e PostGIS**. Versiona lotes por SHA-256, evita reimportação idêntica, cruza equipamentos OSM com o limite municipal simplificado do IBGE e responde consultas por distância, raio e território. Publica benchmark sintético com `EXPLAIN ANALYZE`, SBOM e integração PostGIS real na CI — uso institucional ainda exige fontes adequadas ao caso, base legal e revisão de qualidade.
 
-**[Demonstração pública](https://endeson12.github.io/geo-intelligence-api/)** · **[Release v0.3.0](https://github.com/endeson12/geo-intelligence-api/releases/tag/v0.3.0)** · **[Benchmark versionado](https://github.com/endeson12/geo-intelligence-api/blob/main/docs/benchmark-postgis.json)**
+**[Demonstração pública](https://endeson12.github.io/geo-intelligence-api/)** · **[Release v0.4.0](https://github.com/endeson12/geo-intelligence-api/releases/tag/v0.4.0)** · **[Benchmark versionado](https://github.com/endeson12/geo-intelligence-api/blob/main/docs/benchmark-postgis.json)**
 
-**O que demonstra:** modelagem espacial, índices GiST, `ST_DWithin`, `ST_Covers`, GeoJSON, migrações, idempotência concorrente, Docker, segurança e CI.
+**O que demonstra:** modelagem espacial, índices GiST concorrentes, `ST_DWithin`, `ST_Covers`, GeoJSON, migrações reversíveis, paginação, idempotência concorrente, segurança da interface, Docker e CI.
 
 ### [`devops-fastapi-lab`](https://github.com/endeson12/devops-fastapi-lab)
 [![CI](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml)

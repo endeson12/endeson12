@@ -23,12 +23,12 @@ API FastAPI criada como laboratório operacional reproduzível: container não-r
 ### [`projeto-solar-liga-jovem`](https://github.com/endeson12/projeto-solar-liga-jovem)
 [![CI](https://github.com/endeson12/projeto-solar-liga-jovem/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/projeto-solar-liga-jovem/actions/workflows/ci.yml)
 
-MVP em React e TypeScript para acesso à energia solar. Inclui simulador, catálogo, comunidades, autenticação local por perfis, rotas protegidas, testes e build automatizado.
+MVP em React e TypeScript para acesso à energia solar. Inclui simulador, catálogo, comunidades, autenticação local por perfis, rotas protegidas, testes e build automatizado. **[Ver demonstração](https://endeson12.github.io/projeto-solar-liga-jovem/)**
 
 ### [`recarga-ja`](https://github.com/endeson12/recarga-ja)
 [![CI](https://github.com/endeson12/recarga-ja/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/recarga-ja/actions/workflows/ci.yml)
 
-Protótipo mobile-first de recarga de transporte, com autenticação simulada, dashboard, fluxo de recarga, extrato, perfil e navegação responsiva.
+Protótipo mobile-first de recarga de transporte, com autenticação simulada, dashboard, fluxo de recarga, extrato, perfil e navegação responsiva. **[Ver demonstração](https://endeson12.github.io/recarga-ja/)**
 
 ### [`portfolio-criativo`](https://github.com/endeson12/portfolio-criativo)
 [![CI](https://github.com/endeson12/portfolio-criativo/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/portfolio-criativo/actions/workflows/ci.yml)

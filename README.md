@@ -13,7 +13,7 @@
 
 API de inteligência territorial com **FastAPI, PostgreSQL e PostGIS**. Versiona lotes por SHA-256, evita reimportação idêntica, cruza equipamentos OSM com o limite municipal simplificado do IBGE e responde consultas por distância, raio e território. Publica benchmark sintético com `EXPLAIN ANALYZE`, SBOM e integração PostGIS real na CI — uso institucional ainda exige fontes adequadas ao caso, base legal e revisão de qualidade.
 
-**[Demonstração pública](https://endeson12.github.io/geo-intelligence-api/)** · **[Release v0.4.0](https://github.com/endeson12/geo-intelligence-api/releases/tag/v0.4.0)** · **[Benchmark versionado](https://github.com/endeson12/geo-intelligence-api/blob/main/docs/benchmark-postgis.json)**
+**[Demonstração pública](https://endeson12.github.io/geo-intelligence-api/)** · **[Release v0.4.1](https://github.com/endeson12/geo-intelligence-api/releases/tag/v0.4.1)** · **[Benchmark versionado](https://github.com/endeson12/geo-intelligence-api/blob/main/docs/benchmark-postgis.json)**
 
 **O que demonstra:** modelagem espacial, índices GiST concorrentes, `ST_DWithin`, `ST_Covers`, GeoJSON, migrações reversíveis, paginação, idempotência concorrente, segurança da interface, Docker e CI.
 

@@ -11,11 +11,11 @@
 ### [`geo-intelligence-api`](https://github.com/endeson12/geo-intelligence-api)
 [![CI](https://github.com/endeson12/geo-intelligence-api/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/geo-intelligence-api/actions/workflows/ci.yml)
 
-API de inteligência territorial com **FastAPI, PostgreSQL e PostGIS**. Versiona lotes por SHA-256, evita reimportação idêntica, cruza equipamentos OSM com o limite municipal simplificado do IBGE e responde consultas por distância, raio e território. Publica benchmark sintético com `EXPLAIN ANALYZE`, SBOM e integração PostGIS real na CI — uso institucional ainda exige fontes adequadas ao caso, base legal e revisão de qualidade.
+API de inteligência territorial com **FastAPI, PostgreSQL e PostGIS**. Versiona lotes por SHA-256, integra 123 bairros oficiais do Censo 2022 do IBGE com proveniência e cruza equipamentos OSM em consultas por distância, raio e território. Publica benchmark sintético com `EXPLAIN ANALYZE`, SBOM e integração PostGIS real na CI — uso institucional ainda exige fontes adequadas ao caso, base legal e revisão de qualidade.
 
-**[Demonstração pública](https://endeson12.github.io/geo-intelligence-api/)** · **[Release v0.4.1](https://github.com/endeson12/geo-intelligence-api/releases/tag/v0.4.1)** · **[Benchmark versionado](https://github.com/endeson12/geo-intelligence-api/blob/main/docs/benchmark-postgis.json)**
+**[Demonstração pública](https://endeson12.github.io/geo-intelligence-api/)** · **[Release v0.5.0](https://github.com/endeson12/geo-intelligence-api/releases/tag/v0.5.0)** · **[Benchmark versionado](https://github.com/endeson12/geo-intelligence-api/blob/main/docs/benchmark-postgis.json)**
 
-**O que demonstra:** modelagem espacial, índices GiST concorrentes, `ST_DWithin`, `ST_Covers`, GeoJSON, migrações reversíveis, paginação, idempotência concorrente, segurança da interface, Docker e CI.
+**O que demonstra:** modelagem espacial, índices GiST concorrentes, `ST_DWithin`, `ST_Covers`, GeoJSON, migrações reversíveis, hierarquia territorial, paginação, idempotência concorrente, limite de payload, rate limiting local, segurança da interface, Docker e CI.
 
 ### [`devops-fastapi-lab`](https://github.com/endeson12/devops-fastapi-lab)
 [![CI](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml)

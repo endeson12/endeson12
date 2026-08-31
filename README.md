@@ -6,31 +6,33 @@
 
 > Busco desafios em **backend, engenharia de dados e geotecnologia**, contribuindo com arquitetura pragmática, código testável, automação e entendimento do domínio do produto.
 
-## Projetos em destaque
+## Automações e sistemas em destaque
 
-### [`geo-intelligence-api`](https://github.com/endeson12/geo-intelligence-api)
+Os cinco projetos abaixo concentram minha experiência em **APIs, pipelines, automação supervisionada, agentes, dados e sistemas empresariais**. Projetos internos são apresentados por estudos de caso sanitizados, sem credenciais, dados empresariais ou informações de usuários.
+
+### 1. [`geo-intelligence-api`](https://github.com/endeson12/geo-intelligence-api)
 [![CI](https://github.com/endeson12/geo-intelligence-api/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/geo-intelligence-api/actions/workflows/ci.yml)
 
-API de inteligência territorial com **FastAPI, PostgreSQL e PostGIS**. Versiona lotes por SHA-256, integra 123 bairros oficiais do Censo 2022 do IBGE com proveniência e cruza equipamentos OSM em consultas por distância, raio e território. Publica benchmark sintético com `EXPLAIN ANALYZE`, SBOM e integração PostGIS real na CI — uso institucional ainda exige fontes adequadas ao caso, base legal e revisão de qualidade.
+Pipeline geoespacial com **FastAPI, PostgreSQL/PostGIS e GeoJSON**: ingestão autenticada, lotes por SHA-256, proveniência, reimportação idempotente, consultas por distância e território, benchmark reproduzível, SBOM e PostGIS real na CI. **[Demo](https://endeson12.github.io/geo-intelligence-api/)** · **[Estudo de caso](https://github.com/endeson12/automation-case-studies/blob/main/cases/geo-intelligence-api.md)**
 
-**[Demonstração pública](https://endeson12.github.io/geo-intelligence-api/)** · **[Release v0.5.0](https://github.com/endeson12/geo-intelligence-api/releases/tag/v0.5.0)** · **[Benchmark versionado](https://github.com/endeson12/geo-intelligence-api/blob/main/docs/benchmark-postgis.json)**
-
-**O que demonstra:** modelagem espacial, índices GiST concorrentes, `ST_DWithin`, `ST_Covers`, GeoJSON, migrações reversíveis, hierarquia territorial, paginação, idempotência concorrente, limite de payload, rate limiting local, segurança da interface, Docker e CI.
-
-### [`devops-fastapi-lab`](https://github.com/endeson12/devops-fastapi-lab)
+### 2. [`devops-fastapi-lab`](https://github.com/endeson12/devops-fastapi-lab)
 [![CI](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/devops-fastapi-lab/actions/workflows/ci.yml)
 
-API FastAPI criada para ser **operada, observada e recuperada**: autenticação nas mutações, idempotência, logs JSON, request IDs, métricas Prometheus, dashboard Grafana, health checks, container não-root, CI, backup e restauração. **[Swagger público](https://devops-lab.76-13-234-134.sslip.io/docs)**
+API preparada para entrega e operação reproduzíveis: CI, autenticação de mutações, idempotência, logs JSON, request IDs, métricas Prometheus, Grafana, health checks, container não-root, backup e restauração. **[Swagger](https://devops-lab.76-13-234-134.sslip.io/docs)** · **[Estudo de caso](https://github.com/endeson12/automation-case-studies/blob/main/cases/devops-fastapi-lab.md)**
 
-### [`projeto-solar-liga-jovem`](https://github.com/endeson12/projeto-solar-liga-jovem)
-[![CI](https://github.com/endeson12/projeto-solar-liga-jovem/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/projeto-solar-liga-jovem/actions/workflows/ci.yml)
+### 3. [Marketing Intelligence Hub](https://github.com/endeson12/automation-case-studies/blob/main/cases/marketing-intelligence-hub.md)
 
-MVP React + TypeScript para explorar acesso à energia solar, com simulador, catálogo, perfis, rotas protegidas e testes. Dados e cálculos demonstrativos são identificados no projeto. **[Demonstração pública](https://endeson12.github.io/projeto-solar-liga-jovem/)**
+Automação interna em **Python, Flask, Supabase e PostgreSQL** que transforma fontes autorizadas em regras, hipóteses e experimentos rastreáveis. Inclui ingestão idempotente, checksums, busca híbrida com fallback, auditoria e aprovação humana antes de qualquer decisão sensível.
 
-### [`recarga-ja`](https://github.com/endeson12/recarga-ja)
-[![CI](https://github.com/endeson12/recarga-ja/actions/workflows/ci.yml/badge.svg)](https://github.com/endeson12/recarga-ja/actions/workflows/ci.yml)
+### 4. [Financial Document Automation](https://github.com/endeson12/automation-case-studies/blob/main/cases/financial-document-automation.md)
 
-Protótipo mobile-first de recarga de transporte, com autenticação simulada, dashboard, fluxo de recarga, extrato e interface responsiva. **[Demonstração pública](https://endeson12.github.io/recarga-ja/)**
+Pipeline com **Python, OCR, Next.js e Supabase** para ingestão de documentos, classificação por confiança, extração de campos, criação de pendências e revisão supervisionada. O código e os dados operacionais permanecem privados.
+
+### 5. [Traceable Legal Workflow](https://github.com/endeson12/automation-case-studies/blob/main/cases/traceable-legal-workflow.md)
+
+Protótipo acadêmico em **React, TypeScript, Python e PostgreSQL**: documentos sintéticos validados, fingerprints SHA-256, cronologia derivada de fontes, tarefas e dossiê rastreável com fila de revisão humana.
+
+**[Ver os cinco estudos de caso](https://github.com/endeson12/automation-case-studies)**
 
 ## Contribuição open source
 

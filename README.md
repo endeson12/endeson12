@@ -1,10 +1,10 @@
 # Endeson Marcell
 
-**Desenvolvedor backend orientado a dados, automação e confiabilidade.** Construo APIs em Python, pipelines reproduzíveis e serviços observáveis, com atenção a qualidade dos dados, segurança e recuperação.
+**Desenvolvedor AI-First orientado a automações, APIs e sistemas empresariais.** Construo serviços em Python, interfaces em React/TypeScript, pipelines reproduzíveis e agentes supervisionados, com atenção a rastreabilidade, segurança e validação humana.
 
 📍 Teresina, Piauí · [Portfólio](https://endesonportifolio.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/endeson12/) · [E-mail](mailto:endesonmarcell@gmail.com)
 
-> Busco desafios em **backend, engenharia de dados e geotecnologia**, contribuindo com arquitetura pragmática, código testável, automação e entendimento do domínio do produto.
+> Busco desafios em **backend, automação e inteligência aplicada**, contribuindo com arquitetura pragmática, código testável, integração de dados e entendimento do domínio do produto.
 
 ## Automações e sistemas em destaque
 
@@ -42,12 +42,13 @@ Protótipo acadêmico em **React, TypeScript, Python e PostgreSQL**: documentos 
 
 | Área | Evidência pública |
 |---|---|
-| Backend e contratos | FastAPI, Pydantic, OpenAPI, autenticação e idempotência |
-| Dados geoespaciais | PostGIS, GeoJSON, consultas espaciais e validação de importação |
-| Qualidade | pytest, cobertura, Ruff, mypy e GitHub Actions |
-| Entrega | Docker, Docker Compose, migrações e ambientes reproduzíveis |
-| Operação | health/readiness, logs estruturados, métricas, backup e restauração |
-| Produto | problema documentado, demonstrações, decisões e limitações explícitas |
+| Backend e contratos | FastAPI, Flask, Pydantic, OpenAPI, autenticação e idempotência |
+| Automação supervisionada | ingestão, OCR, agentes por ferramentas, filas de revisão e aprovação humana |
+| Dados e busca | PostgreSQL/Supabase, PostGIS, GeoJSON, proveniência, FTS e busca híbrida |
+| Frontend de sistemas | React, TypeScript, Next.js, dashboards e fluxos de revisão |
+| Qualidade | pytest, Vitest, Playwright, cobertura, Ruff, mypy e GitHub Actions |
+| Entrega e operação | Docker, migrações, observabilidade, backup, restauração e runbooks |
+| Segurança | segredos fora do Git, RLS, validação fail-closed, auditoria e minimização de dados |
 
 ## Stack principal
 
